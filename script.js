@@ -49,19 +49,19 @@
 // Написать функцию, которая принимает на вход 3 параметра: название тега, название цвета, содержимое. Функция должна сформировать необходимый тег, 
 // добавить необходимый стиль с цветом и внести содержимое. Вывести несколько таких сгенерированных тегов в консоль, затем отправить их на страницу.
 
-const container = document.querySelector('.container');
-function createTag(name, color, content){
-    const newTag = document.createElement(name);
-    newTag.innerText = content;
-    newTag.style.color = color;
-    console.log(newTag);
-    container.appendChild(newTag);
-    return newTag;
-}
-const tag1 = createTag('p', 'red', 'I');
-const tag2 = createTag('li', 'green', 'can');
-const tag3 = createTag('li', 'blue', 'see');
-const tag4 = createTag('div', 'pink', 'forewer');
+// const container = document.querySelector('.container');
+// function createTag(name, color, content){
+//     const newTag = document.createElement(name);
+//     newTag.innerText = content;
+//     newTag.style.color = color;
+//     console.log(newTag);
+//     container.appendChild(newTag);
+//     return newTag;
+// }
+// const tag1 = createTag('p', 'red', 'I');
+// const tag2 = createTag('li', 'green', 'can');
+// const tag3 = createTag('li', 'blue', 'see');
+// const tag4 = createTag('div', 'pink', 'forewer');
 
 
 // Задание 6

@@ -5,15 +5,15 @@
 // 2) На li через один (начиная с самого первого) установить класс “item”
 // 3) На все ссылки в примере установить класс “custom-link”
 
-const ul = document.querySelector('ul');
-ul.classList.add('list');
+// const ul = document.querySelector('ul');
+// ul.classList.add('list');
 
-const liArray = document.querySelectorAll('li');
-for(let i = 0; i < liArray.length; i+=2){
-    liArray[i].classList.add('item');
-}
+// const liArray = document.querySelectorAll('li');
+// for(let i = 0; i < liArray.length; i+=2){
+//     liArray[i].classList.add('item');
+// }
 
-const aArray = document.querySelectorAll('a');
-aArray.forEach(element => {
-    element.classList.add('custom-link');
-});
+// const aArray = document.querySelectorAll('a');
+// aArray.forEach(element => {
+//     element.classList.add('custom-link');
+// });
