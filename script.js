@@ -49,25 +49,19 @@
 // Написать функцию, которая принимает на вход 3 параметра: название тега, название цвета, содержимое. Функция должна сформировать необходимый тег, 
 // добавить необходимый стиль с цветом и внести содержимое. Вывести несколько таких сгенерированных тегов в консоль, затем отправить их на страницу.
 
-// const container = document.querySelector('.container');
-// function createTag(name, color, content){
-//     const newTag = document.createElement(name);
-//     newTag.innerText = content;
-//     newTag.style.color = color;
-//     return newTag;
-// }
-// const tag1 = createTag('p', 'red', 'I');
-// console.log(tag1);
-// container.appendChild(tag1);
-// const tag2 = createTag('li', 'green', 'can');
-// console.log(tag2);
-// container.appendChild(tag2);
-// const tag3 = createTag('li', 'blue', 'see');
-// console.log(tag3);
-// container.appendChild(tag3);
-// const tag4 = createTag('div', 'pink', 'forewer');
-// console.log(tag4);
-// container.appendChild(tag4);
+const container = document.querySelector('.container');
+function createTag(name, color, content){
+    const newTag = document.createElement(name);
+    newTag.innerText = content;
+    newTag.style.color = color;
+    console.log(newTag);
+    container.appendChild(newTag);
+    return newTag;
+}
+const tag1 = createTag('p', 'red', 'I');
+const tag2 = createTag('li', 'green', 'can');
+const tag3 = createTag('li', 'blue', 'see');
+const tag4 = createTag('div', 'pink', 'forewer');
 
 
 // Задание 6
@@ -169,7 +163,7 @@
 //     nameTd.innerText = element.name;
 //     nameTd.style.color = 'red';
 //     const ageTd = document.createElement('td');
-//     ageTd.innerHTML = element.age;
+//     ageTd.innerText = element.age;
 //     ageTd.style.color = 'blue';
 //     tr.appendChild(nameTd);
 //     tr.appendChild(ageTd);
