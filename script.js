@@ -21,7 +21,7 @@
 // const li = document.querySelectorAll('li');
 // li.forEach((element, index) => {
 //     console.log(element.innerHTML);
-//     element.innerHTML = index;
+//     element.innerText = index;
 // });
 
 
@@ -39,7 +39,7 @@
 
 // const container = document.querySelector('.container');
 // const p = document.createElement('p');
-// p.innerHTML = 'some content';
+// p.innerText = 'some content';
 // p.style.fontSize = '36px';
 // p.style.fontWeight = 'bold';
 // container.appendChild(p);
@@ -76,7 +76,7 @@
 // const select = document.querySelector('#defaultSelect');
 // for(let i = 1960; i < 2021; i++){
 //     const option = document.createElement('option');
-//     option.innerHTML = i;
+//     option.innerText = i;
 //     select.appendChild(option);
 // }
 
@@ -110,7 +110,7 @@
 // ]
 // clients.forEach(element => {
 //     const li = document.createElement('li');
-//     li.innerHTML = `Клиент ${element.name} ${element.order ? 'оплатил' : 'отменил'} заказ`;
+//     li.innerText = `Клиент ${element.name} ${element.order ? 'оплатил' : 'отменил'} заказ`;
 //     ul.appendChild(li);
 // });
 
@@ -137,7 +137,7 @@
 //     const a = document.createElement('a');
 //     a.setAttribute('href', element);
 //     a.setAttribute('target', '_blank');
-//     a.innerHTML = element.slice(element.indexOf('.')+1, element.lastIndexOf('.'));
+//     a.innerText = element.slice(element.indexOf('.')+1, element.lastIndexOf('.'));
 //     div.appendChild(a);
 // });
 // body.appendChild(div);
@@ -166,7 +166,7 @@
 // users.forEach(element => {
 //     const tr = document.createElement('tr');
 //     const nameTd = document.createElement('td');
-//     nameTd.innerHTML = element.name;
+//     nameTd.innerText = element.name;
 //     nameTd.style.color = 'red';
 //     const ageTd = document.createElement('td');
 //     ageTd.innerHTML = element.age;
